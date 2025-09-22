@@ -1,3 +1,21 @@
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fefefe;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(145, 145, 145);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -38,12 +56,7 @@ nav ul li.active a {
 
 .logo img {
   margin-top: 50px;
-  width: 150px; /* Justera efter behov */
-}
-
-h1 {
-  margin-top: 20px;
-  font-size: 2em;
+  width: 150px;
 }
 
 .boxes {
@@ -63,13 +76,36 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  gap: 60px;
+  margin-bottom: 100px;
+  gap: 50px;
 }
 
 .long-box {
   background-color: #c4c4c4;
   color: black;
-  width: 60%;
+  width: 40%;
   height: 200px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 550;
+}
+
+.long-box a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.long-box a:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.long-box  a:hover {
+  color: rgb(106, 106, 106);
+  background-color: transparent;
+  text-decoration: none;
 }
